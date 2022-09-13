@@ -1,0 +1,93 @@
+
+*{
+    font-family:helvetica, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin:30px 30px 30px 30px ;
+       }
+
+body{
+    background-color: rgb(247, 240, 240);
+}
+
+h1{
+    font-size: 50px;
+    align-items: middle;
+    /* margin: 30px 0px 0px 80px; */
+}
+
+
+main{
+    display: flex;
+    flex-direction: column
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    /* border-radius: 0px 0px 30px 30px; */
+    justify-content: space-around;
+    flex: 1, 1, 100px;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#navbar{
+    margin-right: 0px;
+}
+.navbarlink{
+    display: inline-flex;
+    margin-right: 40px;
+              }
+
+#marker{
+    margin-right: 20px;
+    margin-left: 5px;
+    font-size: 150px;
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 300%;
+    text-align: right;
+    }
+
+
+
+#headshot{
+    border-radius: 40%;
+    margin: 0 px 30px;
+    border: solid 6px rgb(80, 79, 79);
+}
+
+p{
+font-size: larger;
+}
+
+#work{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    /* flex-wrap: wrap; */
+}
+
+.portfolio img{
+    /* padding: 10px; */
+    border: solid 10px rgb(80, 79, 79);
+    border-radius: 10%;
+    margin: 10px;    
+}
+
+@media screen {max-width: 982px;
+    article{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;   
+    }
+    
+}
