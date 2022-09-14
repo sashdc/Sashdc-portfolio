@@ -1,7 +1,8 @@
 
 *{
-    font-family:helvetica, Arial, Helvetica, sans-serif;
-    margin:30px 30px 30px 30px ;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
    }
 
 body{

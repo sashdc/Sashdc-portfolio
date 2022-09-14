@@ -321,6 +321,17 @@
     display: block;
   }
   
+
+  a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
   /*
    * Add the correct display in all browsers.
    */
