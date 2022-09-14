@@ -1,87 +1,82 @@
-
 *{
     font-family:helvetica, Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    margin:30px 30px 30px 30px ;
-       }
+   }
 
-body{
-    background-color: rgb(247, 240, 240);
-}
-
-h1{
-    font-size: 50px;
-    align-items: middle;
-    /* margin: 30px 0px 0px 80px; */
-}
-
-header {
+   body{
     display: flex;
-    flex-direction: row;
-    /* border-radius: 0px 0px 30px 30px; */
-    justify-content: space-around;
-    /* flex: 1, 1, 100px; */
-}
-
-article{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-
-#navbar{
-    margin-right: 0px;
     flex-wrap: wrap;
-}
-.navbarlink{
-    display: inline-flex;
-    margin-right: 40px;
-              }
-
-#marker{
-    margin-right: 20px;
-    margin-left: 5px;
-    font-size: 150px;
-}
-
-h2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 300%;
-    text-align: right;
-    }
-
-
-
-#headshot{
-    border-radius: 40%;
-    margin: 0 px 30px;
-    border: solid 6px rgb(80, 79, 79);
-}
-
-p{
-font-size: larger;
-}
-
-#work{
-    display: flex;
     flex-direction: row;
-    flex: auto;
-    /* flex-wrap: wrap; */
+    background-color: rgb(80, 79, 86);
+    margin:30px 30px 30px 30px ;
+    justify-content: center;    
+}
+
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;    
+        width: 100%;
+         }
+
+    header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;    
+    font-size: 40px;
+    ;
+    }
+     
+    header img{
+       height: 100%;
+       border-radius: 30%;
     }
 
-.portfolio img{
-    /* padding: 10px; */
-    border: solid 10px rgb(80, 79, 79);
-    border-radius: 5%;
-    margin: 10px;  
-}
+    h1{
+        font-size: 70px;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        color: white;
+        }
 
-.portfolio{
-    justify-content: right;
-}
+   article{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 200%;
+            justify-content: space-between;
+            background-color: rgb(150, 137, 143);
+            padding: 50px;
+            margin: 50px;
+            border-radius: 90px;
+            box-shadow: 10 10 26 rgb(160, 112, 112);
+        }
 
-.portfolio img:hover {
-    color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px 5px rgba(82, 82, 82, 0.4);
-    
+        h2{
+            text-align: right;
+            padding: 40px;
+        }
+
+        .portfolio img{
+            border: solid 10px rgb(80, 79, 79);
+            border-radius: 5%;
+            margin: 10px;  
+            width: auto;
+            height: 80px;
+            }
+
+        .main-project img{
+            margin: 0 auto;
+            width: auto
+            height: 300px;
+        }
+
+     
+
+            @media screen and (max-width: 992px){
+                .css-card{
+                    flex: 1 0 42%;
+                    flex-direction: column;
+                    flex-shrink: inherit;
+                }
+            }
