@@ -12,7 +12,8 @@
 }
 
 #navbar a:hover, #navbar a:active{
-    background-color:var(--colour1);
+    background-color:var(--colour5);
+    color: var(--colour2);
     padding: 20px;
 }
 
@@ -53,6 +54,7 @@
          header img:hover {
             color: rgba(255, 255, 255, 1);
             box-shadow: 0 5px 15px 10px rgba(82, 82, 82, 0.4);
+            border: solid var(--colour5);
         }
      
          h1{
@@ -88,10 +90,13 @@
         color: var(--colour5);
     }
 
+    
+
+
    article{
             display: flex;
             flex-direction: row;
-            width: 100%;
+            width: 85%;
             flex: auto;
             align-items: center;
             font-size: 170%;
@@ -108,7 +113,7 @@
         h2{
             text-align: right;
             padding: 20px;
-            border-right: dashed 2px var(--colour1);
+            border-right: dashed 5px var(--colour5);
             color: var(--colour4);
             margin-right: 40px;
         }
@@ -119,24 +124,32 @@
             border: dashed 5px var(--colour1);
         }
 
+  
         .portfolio img{
             border-radius: 20px;
             border: 3px dashed var(--colour1);
         }
 
         .main-project img{
-            width: 88%;        
+            width: 88%;      
+              
         }
+        /* .portfolio img:hover{
+            backdrop-filter: blur(10px);
+            filter: blur(2px);
+            transition: 0.2s ease;} */
 
         .other-projects img{
             flex-wrap: wrap;
             justify-content:stretch;
             margin: 10px;  
-            width: 22%;
+            width: 40%;
            
                     }
 
-        ,.other-projects{
+
+
+        .other-projects{
             justify-content: center;
         }
 
@@ -151,6 +164,8 @@
                 box-shadow: 0 5px 15px 10px rgba(82, 82, 82, 0.4);
             }
 
+
+            
             #contact-me li{
                 color: var(--colour3);            
                 }
@@ -172,6 +187,7 @@
 
              
               @media (max-width: 800px) {
+        
                 article{
                     flex-direction: column;
                     align-items: center;
@@ -180,7 +196,7 @@
                 article h2{
                     font-size: 300%;
                    text-align: center;
-                 border-bottom: dashed 2px var(--colour1);
+                 border-bottom: dashed 5px var(--colour5);
                  border-right: none;
                  margin: auto;
      }
@@ -189,6 +205,9 @@
                 font-size: larger;
             }
 
+         #headshot{
+            flex: auto;
+         }
             .other-projects img{
             width: 50%;
             
@@ -197,9 +216,7 @@
             .main-project img{
                 margin-top: 40px;
             }
-
-                                
-
+           
               }
 
               
