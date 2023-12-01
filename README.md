@@ -18,7 +18,7 @@ Some images are clickable links to previous work, and Navigation bar links scrol
 
 ### Links
 
- [Github Page](https://sashdc.github.io/Sashdc-BC-Mod2-Challenge/)
+ [Github Page](https://sashdc.github.io/Sashdc-portfolio/)
 
  [Github Repo](https://github.com/sashdc/Sashdc-BC-Mod2-Challenge)
 
